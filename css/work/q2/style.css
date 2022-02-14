@@ -6,15 +6,15 @@
   border: 1px solid ;
 }
 
-table tr:nth-child(2n+1) {
+.table_layout tr:nth-child(2n+1) {
   background-color: #ecf1f2;
 }
 
-table tr:last-child {
+.table_layout tr:last-child {
   border-top: 2px dashed #000;
 }
 
-table th {
+.table_layout th {
   background-color: #2244aa;
   padding: 10px;
   font-size: 18px;
@@ -24,13 +24,13 @@ table th {
 
 }
 
-table td {
+.table_layout td {
   padding: 10px;
   border: 1px solid #dedede;
   text-align: center
 }
 
-table td:first-child {
+.table_layout td:first-child {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
