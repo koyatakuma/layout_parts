@@ -10,7 +10,7 @@
   background-color: #ecf1f2;
 }
 
-.table_layout tr:last-child {
+.table_layout tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 

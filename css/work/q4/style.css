@@ -1,16 +1,23 @@
 @charset "UTF-8";
 
-.text-align {
+.text-align,
+.margin,
+.table-cell,
+.display_flex,
+.variable,
+.fixed
+{
   text-align: center;
 }
 
-.inline-block {
+.inline-block,
+.display_inline
+{
   display: inline-block;
 }
 
 .margin {
   margin: 0 auto;
-  text-align: center;
 }
 
 .table {
@@ -20,12 +27,6 @@
 .table-cell {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
-}
-
-.display_inline {
-  display: inline-block;
-
 }
 
 .flex {
@@ -34,9 +35,6 @@
   align-items: center;
 }
 
-.display_flex {
-  text-align: center;
-}
 
 .position_relative {
   position: relative;
@@ -49,7 +47,6 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  text-align: center;
 }
 
 .variable {
@@ -57,7 +54,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 
