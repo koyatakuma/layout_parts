@@ -1,35 +1,34 @@
 @charset "UTF-8";
 
-.text-align,
-.margin,
-.table-cell,
-.display_flex,
-.variable,
-.fixed
+.q4_text-align,
+.q4_margin_auto,
+.q4_table-cell,
+.q4_text_center,
+.q4_variable,
+.q4_fixed
 {
   text-align: center;
 }
 
-.inline-block,
-.display_inline
+.q4_display_inline_block
 {
   display: inline-block;
 }
 
-.margin {
+.q4_margin_auto {
   margin: 0 auto;
 }
 
-.table {
+.q4_table {
   display: table;
 }
 
-.table-cell {
+.q4_table-cell {
   display: table-cell;
   vertical-align: middle;
 }
 
-.flex {
+.q4_flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +39,7 @@
   position: relative;
 }
 
-.fixed {
+.q4_fixed {
   position: absolute;
   top: 0;
   right: 0;
@@ -49,7 +48,7 @@
   margin: auto;
 }
 
-.variable {
+.q4_variable {
   position: absolute;
   top: 50%;
   left: 50%;

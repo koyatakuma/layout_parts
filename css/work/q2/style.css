@@ -6,22 +6,22 @@
   border: 1px solid ;
 }
 
-.table_layout tr:nth-child(2n+1) {
-  background-color: #ecf1f2;
-}
-
-.table_layout tbody tr:last-child {
-  border-top: 2px dashed #000;
-}
-
 .table_layout th {
   background-color: #2244aa;
   padding: 10px;
   font-size: 18px;
   line-height: 26px;
-  color: white;
+  color: #fff;
   border: 1px solid ;
+}
 
+/*背景色（白黒の順番）が間違っていたので修正*/
+.table_layout tr:nth-child(2n) {
+  background-color: #ecf1f2;
+}
+
+.table_layout tbody tr:last-child {
+  border-top: 2px dashed #000;
 }
 
 .table_layout td {
@@ -30,12 +30,13 @@
   text-align: center
 }
 
+/*この部分は不要だったので削除
 .table_layout td:first-child {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
   color: white;
-}
+}*/
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
