@@ -83,12 +83,13 @@
   background-color:#ffefd3;
 }
 
-.q3_fixed_box {
+.top_scroll {
   background-color: #eee;
   position: fixed;
   right: 50px;
   bottom: 50px;
 }
+
 
 
 /* q3が終わったら

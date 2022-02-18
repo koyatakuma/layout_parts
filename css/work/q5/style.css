@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.q5_white_float{
+  width: 400px;
+  float: left;
+  background-color: white;
+  margin-left: 60px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+
+.q5_white_float:first-child {
+  margin-left: 0;
+}
 
 /* q5が終わったら
 q6のcssはq6フォルダの中のcssファイルに記述してください */
