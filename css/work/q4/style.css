@@ -1,17 +1,10 @@
 @charset "UTF-8";
 
-.q4_text-align,
-.q4_margin_auto,
-.q4_table-cell,
-.q4_text_center,
-.q4_variable,
-.q4_fixed
-{
+.q4_text-align {
   text-align: center;
 }
 
-.q4_display_inline_block
-{
+.q4_display_inline_block {
   display: inline-block;
 }
 
