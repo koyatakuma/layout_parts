@@ -1,5 +1,34 @@
 @charset "UTF-8";
 
+.q6_wrap {
+  display: flex;
+  justify-content:center;
+}
+
+.q6_img_box {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+
+.q6_img_box:first-child {
+  margin-left: 0;
+}
+
+.q6_img {
+  width: 300px;
+  height: 200px;
+}
+
+.q6_expansion {
+  transition-duration: 0.5s;
+}
+
+.q6_expansion:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
