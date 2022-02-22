@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+.q7_Speech_bubble {
+  display: flex;
+  align-items:flex-end;
+  justify-content:center;
+
+}
+
+.speach_box {
+  border: 5px solid #222;
+  border-radius: 30px;
+  font-size: 16px;
+  padding: 20px;
+  width: 500px;
+  margin-left: 35px;
+  word-break: break-all;
+  position: relative;
+}
+
+.speach_box::before {
+  content: '';
+  border: 24px solid transparent;
+  border-right: 24px solid #222;
+  position: absolute;
+  left: -49px;
+  bottom: 21px;
+}
+
+.speach_box::after {
+  content: '';
+  border: 18px solid transparent;
+  border-right: 18px solid #fff;
+  position: absolute;
+  left: -36px;
+  bottom: 27px;
+}

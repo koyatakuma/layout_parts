@@ -52,5 +52,26 @@
   word-break: break-all;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.q6_key_visual_text {
+  height: 540px;
+  padding: 80px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+
+}
+
+.q6_key_visual_text p {
+  font-size: 200px;
+  animation: scroll 10s linear infinite ;
+}
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
